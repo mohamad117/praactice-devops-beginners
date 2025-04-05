@@ -19,3 +19,5 @@ ps -aux --sort=-pcpu | head -n 6
 echo '-----------------------------------------------------------------------------------------'
 tput setaf 5; echo 'Top 5 processes by memory usage'
 ps -aux --sort -rss | head -n 6
+\n
+Mamoosh
