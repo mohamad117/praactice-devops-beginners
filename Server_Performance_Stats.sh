@@ -14,8 +14,8 @@ df -h
 echo '-----------------------------------------------------------------------------------------'
 
 tput setaf 4;echo 'Top 5 processes by CPU usage'
-ps -ef --sort=-pcpu | head -n 6  
+ps -aux --sort=-pcpu | head -n 6  
 
 echo '-----------------------------------------------------------------------------------------'
 tput setaf 5; echo 'Top 5 processes by memory usage'
-ps -ef --sort -rss | head -n 6
+ps -aux --sort -rss | head -n 6
